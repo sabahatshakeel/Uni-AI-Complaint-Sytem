@@ -47,7 +47,7 @@ from groq import Groq
 # --------------------------------------------------------------------------
 
 DB_PATH = "complaints.db"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 CATEGORIES = ["IT", "Finance", "Academic", "Hostel", "Administration", "Library", "Other"]
 PRIORITIES = ["Low", "Medium", "High"]
